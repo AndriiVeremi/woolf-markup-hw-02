@@ -1,0 +1,62 @@
+:root {
+  --navyblue: #2e2f42;
+  --slate: #434455;
+  --white: #fff;
+  --iris: #4d5ae5;
+}
+
+/* Reset styles */
+
+a {
+  color: inherit;
+  text-decoration: none;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* ОСНОВНІ СТИЛІ */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--navyblue);
+  margin: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.current {
+  color: var(--iris);
+}
+
+/* СТИЛІ ШАПКИ САЙТУ */
+
+
