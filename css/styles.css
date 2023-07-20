@@ -107,7 +107,8 @@ body {
   background-color: var(--iris);
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.04em
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 .hero-button:hover,
@@ -217,6 +218,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 .menu-btn:hover,
