@@ -33,7 +33,7 @@ body {
 /* Шапка сайту */
 
 .header {
-  border-bottom: 1px solid var(--cornflower);
+  /* border-bottom: 1px solid var(--cornflower); */
   background-color: var(--white);
 }
 
@@ -71,6 +71,10 @@ body {
 .menu-link:hover,
 .menu-link:focus {
   color: var(--ocean);
+}
+
+.header-contacts {
+  font-style: normal
 }
 
 .contact-link {
@@ -144,6 +148,8 @@ body {
   text-transform: capitalize;
 }
 
+/* Чим ми займаємося */
+
 /* Наша команда */
 
 .team {
@@ -195,7 +201,7 @@ body {
 .footer-text {
   color: var(--cloud);
   line-height: 1.5;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
 }
 
 /* Styles PORTFOLIO */
@@ -203,7 +209,7 @@ body {
 /* Каталог */
 
 .menu-btn {
-  border-radius: 4px;
+  /* border-radius: 4px; */
   border: 1px solid var(--cornflower);
   color: var(--iris);
   background-color: var(--cloud);
