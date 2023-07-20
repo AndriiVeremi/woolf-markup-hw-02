@@ -100,7 +100,6 @@ body {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
-  text-align: center;
 }
 
 .hero-button {
@@ -108,8 +107,7 @@ body {
   background-color: var(--iris);
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
+  letter-spacing: 0.04em
 }
 
 .hero-button:hover,
@@ -214,13 +212,11 @@ body {
 /* Каталог */
 
 .menu-btn {
-  /* border-radius: 4px; */
   color: var(--iris);
   background-color: var(--cloud);
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  cursor: pointer;
 }
 
 .menu-btn:hover,
