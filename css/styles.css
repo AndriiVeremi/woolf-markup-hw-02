@@ -227,7 +227,7 @@ body {
 
 /* Галерея */
 
-.category-title {
+.gallery-title {
   color: var(--navyblue);
   font-size: 20px;
   font-weight: 500;
@@ -235,7 +235,8 @@ body {
   letter-spacing: 0.02em;
 }
 
-.category-name {
+.gallery-name {
+  font-size: 16px;
   color: var(--slate);
   line-height: 1.5;
   letter-spacing: 0.02em;
