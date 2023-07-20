@@ -4,6 +4,7 @@
   --white: #fff;
   --iris: #4d5ae5;
   --ocean: #404bbf;
+  --cloud: #F4F4FD;
 }
 
 /* Reset Styles */
@@ -24,7 +25,7 @@ body {
   font-style: normal;
   font-weight: 400;
   color: var(--navyblue);
-  margin: 0;
+  letter-spacing: 0.02em;
 }
 
 /* Шапка сайту */
@@ -78,46 +79,49 @@ body {
 
 /* Блок Герой */
 
+.hero {
+  background-color: var(--navyblue);
+}
+
 .hero-title {
   color: var(--white);
   text-align: center;
   font-size: 56px;
   font-weight: 700;
-  line-height: 60px; /* 107.143% */
+  line-height: 1.07;
   letter-spacing: 1.12px;
+  text-align: center;
 }
 
 .hero-button {
   border-radius: 4px;
-  background: var(--iris);
+  background-color: var(--iris);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 .hero-button:hover,
 .hero-button:focus {
-  background: var(--ocean);
+  background-color: var(--ocean);
 }
 
 /* Інформаційний блок */
 
 .info-title {
   color: var(--navyblue);
-  font-family: Roboto;
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 120% */
-  letter-spacing: 0.4px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .info-text {
   color: var(--slate);
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.5; 
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 /* Секція */
@@ -125,40 +129,38 @@ body {
 .section-title {
   color: var(--navyblue);
   text-align: center;
-  font-family: Roboto;
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 40px; /* 111.111% */
-  letter-spacing: 0.72px;
+  line-height: 1.11; 
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
 /* Наша команда */
 
+.team {
+  background-color: var(--cloud);
+}
+
 .team-name {
   color: var(--navyblue);
-  text-align: center;
-  font-family: Roboto;
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 120% */
-  letter-spacing: 0.4px;
+  line-height: 1.2; 
+  letter-spacing: 0.02em;
 }
 
 .team-position {
   color: var(--slate);
-  text-align: center;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 /* Підвал */
+
+.footer {
+  background-color: var(--navyblue);
+}
 
 .footer-logo {
   color: var(--iris);
@@ -166,8 +168,8 @@ body {
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 21px; /* 116.667% */
-  letter-spacing: 0.54px;
+  line-height: 1.17; 
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -177,19 +179,15 @@ body {
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 21px; /* 116.667% */
-  letter-spacing: 0.54px;
+  line-height: 1.17; 
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .footer-text {
   color: var(--cloud);
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.5; 
-  letter-spacing: 0.32px;
+  letter-spacing: 0.03em;
 }
 
 /* Styles PORTFOLIO */
@@ -199,12 +197,18 @@ body {
 .menu-btn {
   border-radius: 4px;
   border: 1px solid var(--cornflower);
-  background: var(--cloud);
+  color: var(--iris);
+  background-color: var(--cloud);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 .menu-btn:hover,
 .menu-btn:focus {
-  background: var(--ocean);
+  color: var(--white);
+  background-color: var(--ocean);
 }
 
 /* Галерея */
@@ -213,10 +217,10 @@ body {
   color: var(--navyblue);
   font-family: Roboto;
   font-size: 20px;
-  font-style: normal;
+  
   font-weight: 500;
-  line-height: 24px; /* 120% */
-  letter-spacing: 0.4px;
+  line-height: 1.2; 
+  letter-spacing: 0.02em;
 }
 
 .category-name {
@@ -226,5 +230,5 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
