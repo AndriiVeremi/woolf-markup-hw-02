@@ -5,6 +5,7 @@
   --iris: #4d5ae5;
   --ocean: #404bbf;
   --cloud: #f4f4fd;
+  --cornflower: #E7E9FC;
 }
 
 /* Reset Styles */
@@ -24,15 +25,16 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  color: var(--navyblue);
+  color: #434455;
   letter-spacing: 0.02em;
+  background-color: #ffffff;
 }
 
 /* Шапка сайту */
 
 .logo {
   color: var(--iris);
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -43,7 +45,7 @@ body {
 
 .logo-color {
   color: var(--navyblue);
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -165,7 +167,7 @@ body {
 
 .footer-logo {
   color: var(--iris);
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -176,7 +178,7 @@ body {
 
 .footer-color {
   color: var(--cloud);
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -216,9 +218,7 @@ body {
 
 .category-title {
   color: var(--navyblue);
-  font-family: Roboto;
   font-size: 20px;
-
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -226,10 +226,6 @@ body {
 
 .category-name {
   color: var(--slate);
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
