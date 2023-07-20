@@ -4,7 +4,7 @@
   --white: #fff;
   --iris: #4d5ae5;
   --ocean: #404bbf;
-  --cloud: #F4F4FD;
+  --cloud: #f4f4fd;
 }
 
 /* Reset Styles */
@@ -47,7 +47,7 @@ body {
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 1.17; 
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -57,7 +57,7 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.5; 
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
@@ -68,7 +68,7 @@ body {
 
 .contact-link {
   color: var(--slate);
-  line-height: 1.5; 
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
@@ -120,7 +120,7 @@ body {
 
 .info-text {
   color: var(--slate);
-  line-height: 1.5; 
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -131,7 +131,7 @@ body {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.11; 
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -146,7 +146,7 @@ body {
   color: var(--navyblue);
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.2; 
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
@@ -168,7 +168,7 @@ body {
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 1.17; 
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -179,14 +179,14 @@ body {
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 1.17; 
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .footer-text {
   color: var(--cloud);
-  line-height: 1.5; 
+  line-height: 1.5;
   letter-spacing: 0.03em;
 }
 
@@ -217,9 +217,9 @@ body {
   color: var(--navyblue);
   font-family: Roboto;
   font-size: 20px;
-  
+
   font-weight: 500;
-  line-height: 1.2; 
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
